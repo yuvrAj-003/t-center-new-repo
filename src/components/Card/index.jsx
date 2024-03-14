@@ -1,13 +1,13 @@
 import React from 'react'
 import Button from '../Button'
 import { Link } from 'react-router-dom'
-function Card({image, title, price}) {
+function Card({image, title, price, style}) {
   return (
     <>
-    <div className="mt-5 relative flex flex-col rounded-xl shadow-lg w-48 h-64 md:w-72 md:h-96">
+    <div className={`mt-5 relative flex flex-col rounded-xl shadow-lg w-44 h-72 m-3 md:w-72 md:h-96 ${style}`}>
       <div className="relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl flex justify-center">
       <Link to={`/${title.toLowerCase()}`}>
-        <img src={image} alt="image" className='h-full'/>
+        <img src={image} alt="image" className='h-full w-full'/>
       </Link>
       <button
       className="!absolute  top-4 right-4 h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-red-500 transition-all hover:bg-red-500/10 active:bg-red-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
