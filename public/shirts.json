@@ -1,0 +1,71 @@
+{
+    "anvil-black": {
+        "name": "anvil-black",
+        "image": "/images/anvil.jpg",
+        "description": "Embrace classic simplicity with the Anvil Black T-shirt. This wardrobe essential offers timeless style and comfort, making it perfect for everyday wear. The jet-black hue adds a touch of sophistication, while the quality craftsmanship ensures a comfortable fit. Whether you're heading to work or a casual outing, the Anvil Black T-shirt effortlessly combines versatility and elegance. Elevate your style with this understated yet essential piece that complements any wardrobe. Priced at Rs.999, it's an affordable luxury that stands the test of time.",
+        "price" : "999"
+
+    },
+    "anvil-green": {
+        "name": "anvil-green",
+        "image": "/images/anvil2.jpg",
+        "description": "Introducing the Anvil Green T-shirt — a stylish blend of durability and trendsetting design. Crafted with precision, this T-shirt offers a comfortable fit and a refreshing green hue that adds a touch of uniqueness to your casual wardrobe. Whether you're exploring the outdoors or meeting friends, the Anvil Green T-shirt makes a statement. Priced at Rs.899, it's a budget-friendly choice for those who seek both fashion and function. Embrace the vibrant energy of green while enjoying the reliable quality that Anvil brings to every garment.",
+        "price" : "899"
+
+    },
+    "bus": {
+        "name": "bus",
+        "image": "/images/bus.jpg",
+        "description": "Hop on board with the Bus T-shirt — a unique and playful addition to your collection. Featuring a detailed miniature bus, this T-shirt is a conversation starter that adds a touch of whimsy to your casual wardrobe. Crafted with care, it offers not just a fun design but also comfort for your daily adventures. Whether you're a collector or simply love unique fashion, the Bus T-shirt is a must-have. Priced at Rs.1499, it combines creativity with quality, making it a standout choice for those who appreciate distinctive style.",
+        "price" : "1499"
+
+    },
+    "essentials": {
+        "name": "essentials",
+        "image": "/images/essentials.png",
+        "description": "Introducing Essentials Black, your go-to T-shirt for everyday style and comfort. This classic black tee is a versatile wardrobe staple that effortlessly transitions from casual to semi-formal occasions. Crafted with attention to detail, it offers a flattering fit and enduring quality. Whether you're running errands or meeting friends, Essentials Black ensures you look effortlessly chic. Priced at Rs.1599, it's an affordable luxury that complements any outfit. Elevate your basics with this essential black T-shirt, designed for those who appreciate simplicity with a touch of sophistication.",
+        "price" : "1599"
+
+    },
+    "evolution": {
+        "name": "evolution",
+        "image": "/images/evolution.jpg",
+        "description": "Experience the Evolution T-shirt — a modern and innovative take on casual wear. With its cutting-edge design and attention to detail, this T-shirt redefines your everyday style. The Evolution tee seamlessly blends comfort with contemporary fashion, making it a standout choice for those who crave uniqueness. Whether you're a trendsetter or simply appreciate quality craftsmanship, this T-shirt has you covered. Priced at Rs.1199, it's an affordable way to stay ahead in the fashion game. Embrace the evolution of style with this forward-thinking T-shirt that captures the essence of modernity.",
+        "price" : "1199"
+
+    },
+    "nike": {
+        "name": "nike",
+        "image": "/images/nike1.jpg",
+        "description": "Unleash the power of simplicity with the Nike Black T-shirt. Known for its iconic swoosh and commitment to performance, Nike delivers a T-shirt that combines style and functionality effortlessly. The black hue adds a touch of sophistication, making it a versatile piece for various occasions. Crafted with precision and featuring the signature Nike logo, this T-shirt is a statement of both fashion and athleticism. Priced at Rs.1999, it's a premium choice for those who seek a perfect blend of comfort and style. Elevate your activewear with the Nike Black T-shirt, a symbol of timeless sporting excellence.",
+        "price" : "1999"
+
+    },
+    "nike-air": {
+        "name": "nike-air",
+        "image": "/images/nike2.jpeg",
+        "description": "Step into a new dimension of comfort and style with the Nike Air T-shirt. This high-performance athletic tee is engineered with advanced air cushioning, providing an unparalleled experience. Whether you're hitting the gym or enjoying a casual day out, the Nike Air T-shirt ensures you stay cool and comfortable. The dynamic design, coupled with Nike's commitment to innovation, makes it a standout choice for those who demand more from their activewear. Priced at Rs.3999, it's a premium investment in your athletic wardrobe. Embrace the future of sportswear with the Nike Air T-shirt, where technology meets fashion in perfect harmony.",
+        "price" : "3999"
+
+    },
+    "sunspel-grey-black": {
+        "name": "sunspel-grey-black",
+        "image": "/images/sunspel1.jpg",
+        "description": "Discover sophistication in simplicity with the Sunspel Grey-Black T-shirt. This versatile tee combines a timeless color palette with a modern cut, creating a wardrobe staple for various occasions. Crafted with the utmost attention to detail, Sunspel ensures both style and comfort. The grey-black combination adds a touch of understated elegance, making it a go-to choice for those who appreciate refined fashion. Priced at Rs.1499, it's an investment in quality and versatility. Elevate your casual wardrobe with the Sunspel Grey-Black T-shirt — where classic meets contemporary in a seamless fusion.",
+        "price" : "1499"
+
+    },
+    "sunspel-black": {
+        "name": "sunspel-black",
+        "image": "/images/sunspel2.jpg",
+        "description": "Indulge in premium comfort and style with the Sunspel Black T-shirt. This elegant piece is crafted with precision, offering a luxurious feel and a sophisticated look. The deep black hue adds a touch of timeless charm, making it a versatile addition to your wardrobe. Whether you're attending a special event or simply want to elevate your everyday style, the Sunspel Black T-shirt is the epitome of refined fashion. Priced at Rs.2399, it's a statement of both quality and exclusivity. Embrace the luxury of simplicity with this premium black T-shirt that transcends trends and stands the test of time.",
+        "price" : "2399"
+
+    },
+    "us-polo": {
+        "name": "us-polo",
+        "image": "/images/usp.jpg",
+        "description": "Elevate your casual wardrobe with the US Polo T-shirt — a classic choice for timeless style. Crafted with quality materials and attention to detail, this polo-style tee offers both comfort and sophistication. The iconic US Polo logo adds a touch of authenticity, making it a symbol of enduring fashion. Whether you're hitting the golf course or enjoying a leisurely day out, the US Polo T-shirt ensures you look polished and put-together. Priced at Rs.2499, it's a premium investment in your wardrobe. Embrace the heritage of American polo style with this classic T-shirt that exudes both confidence and casual elegance.",
+        "price" : "2499"
+    }
+}

@@ -1,0 +1,4 @@
+create search logic with search slice
+make product page and home page mobile responsive
+change navbar which is mobile responsive
+
