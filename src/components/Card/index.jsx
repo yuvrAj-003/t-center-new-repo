@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Card({image, title, price, style}) {
   return (
     <>
-    <div className={`card flex flex-col w-44 h-44 mt-5 md:w-72 md:h-80 ${style}`}>
+    <div className={`card flex flex-col w-44 h-44 mt-5 md:w-72 md:h-80 relative ${style}`}>
       <div className="overflow-hidden text-white shadow-md flex justify-center w-full h-full">
       <Link to={`/${title.toLowerCase()}`}>
         <img src={image} alt="image" className='w-full h-full'/>

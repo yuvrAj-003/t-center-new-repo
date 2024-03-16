@@ -15,7 +15,7 @@ function Home() {
     <Navbar />
     <CarouselDefault />
     <Search />
-    <div className="grid grid-cols-2 justify-items-center xl:grid-cols-4 md:grid-cols-3">
+    <div className="grid grid-cols-2 justify-items-center xl:grid-cols-4 md:grid-cols-3 p-3">
       {products.map((v,i) => <Card key={i} title={v.name} image={v.image} price={v.price}/>)}
     </div>
     </>
