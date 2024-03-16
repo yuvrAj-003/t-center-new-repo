@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Button({style,text, handleClick}) {
+function Button({style,children, handleClick}) {
   return (
     <>
-    <button className={`p-2.5 bg-yellow-500 w-full rounded-lg shadow-lg cursor-pointer hover:shadow-none hover:bg-yellow-400 active:bg-yellow-300 flex justify-center font-bold ${style}`} onClick={handleClick}>{text}</button>
+    <button className={`p-2.5 bg-yellow-500 w-full shadow-md cursor-pointer hover:shadow-none hover:bg-yellow-300 active:bg-yellow-300 flex justify-center font-bold ${style}`} onClick={handleClick}>{children}</button>
     </>
     
   )

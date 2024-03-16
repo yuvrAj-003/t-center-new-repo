@@ -1,10 +1,10 @@
 // import React from 'react'
 // eslint-disable-next-line react/prop-types
 import { Link } from "react-router-dom";
-function NavItem({text , style , link}) {
+function NavItem({children , style , link}) {
   return (
-    <div className={`hover:opacity-60 ${style}`}>
-      <Link to={link}>{text}</Link>
+    <div className={`nav-item ${style}`}>
+      <Link to={link}>{children}</Link>
     </div>
   )
 }

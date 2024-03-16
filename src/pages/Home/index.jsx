@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from "../../components/Navbar";
+import NavBar from '../../components/NavBar';
 import Search from "../../components/Search";
 import Card from "../../components/Card";
 import CarouselDefault from "../../components/CarouselDefault";
@@ -12,7 +12,7 @@ function Home() {
 
   return (
     <>
-    <Navbar />
+    <NavBar />
     <CarouselDefault />
     <Search />
     <div className="grid grid-cols-2 justify-items-center xl:grid-cols-4 md:grid-cols-3 p-3">

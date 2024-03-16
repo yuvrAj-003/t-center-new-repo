@@ -4,7 +4,7 @@ import { Carousel } from "@material-tailwind/react";
  
 export function CarouselDefault({style}) {
   return (
-    <Carousel transition={{ duration: 1 }} className={`w-screen carousel relative shadow-md ${style}`}>
+    <Carousel transition={{ duration: 1 }} className={`w-screen carousel relative shadow-md z-0 mt-px ${style}`}>
       <img
         src="/images/manyshirts.jpg"
         alt="image 1"

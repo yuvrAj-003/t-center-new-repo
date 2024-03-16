@@ -1,18 +1,18 @@
 // import React from 'react'
 import { useParams } from "react-router-dom"
-import Navbar from "../../components/Navbar";
+import Navbar from "../../components/NavBar";
 import { useEffect, useLayoutEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import Button from "../../components/Button";
 function Product() {
-  // useEffect(() => {
-  //   window.scroll(0,0)
-  // },[])
+  useEffect(() => {
+    window.scroll(0,0)
+  },[])
 
   var { id } = useParams();
   const selector = useSelector(state => state.product.value);
   const product = selector.product ?? {};
-
+  console.log(product);
   
   return (
     <div>
@@ -32,8 +32,8 @@ function Product() {
 
           <div className="flex buttons w-2/4">
             <p className="text-lg p-3 w-full">Rs. {product[id]?.price}</p>
-            <Button style="w-fit h-fit flex items-center mx-3" text="add to cart" />
-            <Button style="w-fit h-fit flex items-center me-3" text="add to wishlist" />
+            <Button style="w-fit h-fit flex items-center mx-3">Add To Cart</Button>
+            <Button style="w-fit h-fit flex items-center me-3">Add To Wishlist</Button>
           </div>
         </div>
 

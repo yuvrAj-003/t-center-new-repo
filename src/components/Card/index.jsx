@@ -26,6 +26,8 @@ function Card({image, title, price, style}) {
       </button>
       </div>
       <div className="mt-3">
+        
+      <Link to={`/${title.toLowerCase()}`}>
       <div className="flex items-center justify-between">
         <p className="block font-sans antialiased font-sns leading-snug tracking-normal text-blue-gray-900">
           {title}
@@ -34,6 +36,7 @@ function Card({image, title, price, style}) {
           Rs {price}
         </p>
       </div>
+      </Link>
       </div>
     </div>
     </>
