@@ -1,4 +1,0 @@
-create search logic with search slice using react redux
-make product page and home page mobile responsive
-change navbar which is mobile responsive
-

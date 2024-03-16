@@ -19,7 +19,7 @@ function Product() {
       <Navbar />
       <div className="flex mt-6">
         {/* left container  */}
-        <div className="product-left relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl flex justify-center">
+        <div className="product-left relative mx-4 mt-4 overflow-hidden text-white flex justify-center">
           <img src={product[id]?.image} alt="image" width={1500} height={500}/>
         </div>
 

@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 function Card({image, title, price, style}) {
   return (
     <>
-    <div className={`mt-5 relative flex flex-col rounded-xl shadow-lg w-44 h-72 m-3 md:w-72 md:h-96 ${style}`}>
-      <div className="relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl flex justify-center">
+    <div className={`card flex flex-col w-44 h-44 mt-5 md:w-72 md:h-80 ${style}`}>
+      <div className="overflow-hidden text-white shadow-md flex justify-center w-full h-full">
       <Link to={`/${title.toLowerCase()}`}>
-        <img src={image} alt="image" className='h-full w-full'/>
+        <img src={image} alt="image" className='w-full h-full'/>
       </Link>
       <button
       className="!absolute  top-4 right-4 h-8 max-h-[32px] w-8 max-w-[32px] select-none rounded-full text-center align-middle font-sans text-xs font-medium uppercase text-red-500 transition-all hover:bg-red-500/10 active:bg-red-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
@@ -25,18 +25,15 @@ function Card({image, title, price, style}) {
       </span>
       </button>
       </div>
-      <div className="p-3 px-6">
+      <div className="mt-3">
       <div className="flex items-center justify-between">
-      <h5 className="block font-sans text-xl antialiased font-medium leading-snug tracking-normal text-blue-gray-900">
-        {title}
-      </h5>
-      <p className="flex items-center gap-1.5 font-sans text-base font-normal text-blue-gray-900">
-        Rs {price}
-      </p>
+        <p className="block font-sans antialiased font-sns leading-snug tracking-normal text-blue-gray-900">
+          {title}
+        </p>
+        <p className="flex items-center font-sans font-normal text-blue-gray-900">
+          Rs {price}
+        </p>
       </div>
-      </div>
-      <div className="p-3">
-      <Button text="ADD TO CART"/>
       </div>
     </div>
     </>
