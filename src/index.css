@@ -39,6 +39,7 @@ body{
 }
 
 
+
 .card p:hover{
     color: #ffeb3b;
 }
@@ -52,5 +53,23 @@ body{
 @media screen and (max-width: 712px){
     .card p{
         font-size: 50%;
+    }
+    .product{
+        padding: 1rem;
+    }
+    .product, .product-middle{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    .product-middle p{
+        font-size: 80%;
+    
+    }
+    .buttons{
+        display: flex;
+        flex-flow: column;
     }
 }
